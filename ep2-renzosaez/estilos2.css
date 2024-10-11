@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://png.pngtree.com/background/20230613/original/pngtree-man-on-a-mountain-starry-sky-wallpaper-for-mobile-picture-image_3377062.jpg);
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.movies-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    padding: 40px;
+}
+
+.movie {
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: calc(33.333% - 20px); 
+    margin-bottom: 20px; 
+    transition: transform 0.2s; 
+}
+
+.movie:hover {
+    transform: scale(1.05); /
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+.movie h3 {
+    padding: 10px;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+
+.movie p {
+    padding: 0 10px 10px;
+    font-size: 0.9em;
+    color: aliceblue;
+}
+i{
+    font-size: 50px;
+}
