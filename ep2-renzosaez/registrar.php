@@ -1,6 +1,6 @@
 
 <?php 
-include_once("conexion.php");
+include_once('conexion.php');
 if (isset($_POST['register'])) {
     if(
         strlen($_POST['name']) >= 1 &&
